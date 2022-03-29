@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:wght@400;900&family=Raleway:wght@400=swap');
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 body {
   overflow-x: hidden; /* remove horizantal scroll */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   margin: 0;
   width: 100vw;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: White;
   padding: 45px;
   padding-left:0;
 }
@@ -79,7 +79,7 @@ footer a {
   padding: 15px;
 }
 
-/* PORTFOLIO PAGE STYLES */
+/* DIGITAL ART STYLES */
 
 .imagegroup {
   width:32%;
@@ -159,7 +159,7 @@ button {
   color: #fff;
   border-radius: 10px;
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
