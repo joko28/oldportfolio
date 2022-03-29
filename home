@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JOZEY NGUYEN | HOME</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.birds.min.js"></script>
+  <style>
+  VANTA.BIRDS ('#my-background')
+  </style>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
+</head>
+
+<body>
+  <!--SPAN THROUGH EVERY PAGE-->
+  <div class="container"></div>
+  <div id="interactive"></div>
+    <h1>JOZEY NGUYEN</h1>
+    <ul>
+      <li><a href="home.html" class="effect">HOME</a></li>
+      <li><a href="digitalart.html" class="effect">DIGITAL ART</a></li>
+      <li id="about"><a href="about.html" class="effect">ABOUT</a></li>
+    </ul>
+
+    <footer>
+      <center>
+      <a href="mailto:nguyenjozey@gmail.com?Subject=Hello%20There" target="_top" class="effect"><i class="icon fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/jn.jojokoko/" class="effect"><i class="icon fab fa-instagram"></i></a>
+      <a href="https://vimeo.com/user109355174" class="effect"><i class="icon fab fa-vimeo-v"></i></a>
+      <a href="https://www.linkedin.com/in/jozey-nguyen-830639139/" class="effect"><i class="icon fab fa-linkedin-in"></i></a>
+      </center>
+    </footer>
+
+    <script>
+  VANTA.BIRDS({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x9ee6d9,
+    color1: 0xe654e6,
+    color2: 0x260ba2,
+    colorMode: "lerp",
+    birdSize: 1.40,
+    speedLimit: 8.00,
+    separation: 46.00,
+    alignment: 28.00,
+    cohesion: 21.00
+  })
+  </script>
+</body>
+</html>

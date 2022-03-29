@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  max-width: 100%;
+}
+
+/* INDEX PAGE STYLES */
+
+body {
+  overflow-x: hidden; /* remove horizantal scroll */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 100vw;
+}
+
+.container {
+  width: 85vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+#interactive {
+  width: 100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -999; /*order send to back*/
+}
+
+h1 {
+  color: black;
+  padding: 45px;
+  padding-left:0;
+}
+
+ul {
+color: white;
+float: right;
+margin-top: -90px;
+}
+
+ul li {
+  float: left;
+  padding: 20px;
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.effect:hover {
+  color: #063540;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+#about {
+  padding-right:0;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 50px;
+  font-size: 2em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 15px;
+}
+
+/* PORTFOLIO PAGE STYLES */
+
+.imagegroup {
+  width:32%;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 30px;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+}
+
+.imagegroup img {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.selected {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.overlay {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.imagegroup:hover .overlay {
+  opacity: 100%;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  background-color: #333;
+  padding:5px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footerflex {
+  position: relative;
+}
+
+/* ABOUT PAGE STYLES */
+.twocolumns {
+  width: 100%;
+}
+
+#me {
+  width: 48%;
+  float: left;
+}
+
+#bio {
+  width: 48%;
+  color: #fff;
+  float: right;
+}
+
+button {
+  width: 300px;
+  padding: 15px;
+  background-color: transparent;
+  border: solid #fff 2px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #fff;
+  color:#0f0b30;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* ARTWORK PAGE STYLES */
+h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  text-align: left;
+  color: #fff;
+    width:75%;
+    margin-top:30px;
+}
+
+.description {
+  width:75%;
+  color: #fff;
+  padding:30px;
+  text-align: left;
+}
+
+.navigation {
+  width: 100vw;
+  padding: 60px 0;
+  padding-bottom:100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.previous {
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.previous a {
+  text-decoration: none;
+  color: #2E7B8C;
+}
+
+.next {
+  float: right;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.next a {
+  text-decoration: none;
+  color: #2E7B8C;
+}

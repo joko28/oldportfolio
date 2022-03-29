@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JOZEY NGUYEN | PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
+</head>
+<!--SPAN THROUGH EVERY PAGE-->
+<body style="background-color:#48CECA">
+  <div class="container">
+    <h1>JOZEY NGUYEN</h1>
+    <ul>
+      <li><a href="indexpage.html" class="effect">HOME</a></li>
+      <li><a href="portfoliopage.html" class="effect">PORTFOLIO</a></li>
+      <li id="about"><a href="aboutpage.html" class="effect">ABOUT</a></li>
+    </ul>
+
+<center>
+<!--1st GALLERY-->
+<!--1st ARTWORK-->
+<div class="row">
+  <div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/0peqU4u.jpg" class="center">
+      <div class="overlay">
+        <a href="artworkpage1.html"><div class="text">Galaxy Garden</div><a/>
+      </div>
+    </div>
+  </div>
+<!--2nd ARTWORK-->
+<div class="column">
+<div class="imagegroup">
+  <img src="https://imgur.com/BKOIhDd.jpg" class="center">
+    <div class="overlay">
+      <a href="artworkpage2.html"><div class="text">3D Dimensions</div><a/>
+    </div>
+  </div>
+</div>
+<!--3rd ARTWORK-->
+<div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/0peqU4u.jpg" class="center">
+      <div class="overlay">
+        <a href="artworkpage3.html"><div class="text">Hanahaki Disease</div><a/>
+      </div>
+    </div>
+  </div>
+</div>
+<!--2nd GALLERY-->
+<!--4th ARTWORK-->
+<div class="row">
+  <div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/jmz4mTB.jpg" class="center">
+      <div class="overlay">
+        <a href="netart.html"><div class="text">Let's Play a Game</div><a/>
+      </div>
+    </div>
+  </div>
+<!--5th ARTWORK-->
+<div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/7VSEMBk.jpg" class="center">
+      <div class="overlay">
+        <a href="virtualinstallation.html"><div class="text">The Cage</div><a/>
+      </div>
+    </div>
+  </div>
+<!--6th ARTWORK-->
+<div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/ZCu446g.jpg" class="center">
+      <div class="overlay">
+        <a href="guava.html"><div class="text">Guava Botanics</div><a/>
+      </div>
+    </div>
+  </div>
+</div>
+<!--3RD GALLERY-->
+<!--7th ARTWORK-->
+<div class="row">
+  <div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/l8k7Gew.jpg" class="center">
+      <div class="overlay">
+        <a href="seungmin.html"><div class="text">Seungmin</div><a/>
+      </div>
+    </div>
+  </div>
+<!--8th ARTWORK-->
+<div class="column">
+ <div class="imagegroup">
+   <img src="https://i.imgur.com/rqFGFvt.jpg" class="center">
+     <div class="overlay">
+       <a href="glaser.html"><div class="text">Milton Glaser</div><a/>
+     </div>
+   </div>
+ </div>
+<!--9th ARTWORK-->
+<div class="column">
+<div class="imagegroup">
+  <img src="https://i.imgur.com/TQ4dMi0.jpg" class="center">
+    <div class="overlay">
+      <a href="deanza.html"><div class="text">De Anza</div><a/>
+    </div>
+  </div>
+</div>
+</div>
+<!--4th GALLERY-->
+<!--10th ARTWORK-->
+<div class="row">
+  <div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/KqAH2V5.jpg" class="center">
+      <div class="overlay">
+        <a href="self.html"><div class="text">Self</div><a/>
+      </div>
+    </div>
+  </div>
+<!--11th ARTWORK-->
+<div class="column">
+<div class="imagegroup">
+  <img src="https://i.imgur.com/UMmp1UM.jpg" class="center">
+    <div class="overlay">
+      <a href="wyld.html"><div class="text">Lost in Translation</div><a/>
+    </div>
+  </div>
+</div>
+<!--12th ARTWORK-->
+<div class="column">
+  <div class="imagegroup">
+    <img src="https://i.imgur.com/KXh9MSi.jpg" class="center">
+      <div class="overlay">
+        <a href="systemicincubation.html"><div class="text">Systemic Incubation</div><a/>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END OF GALLERY-->
+</center>
+
+  </div>
+
+    <footer class="footerflex">
+      <a href="mailto:nguyenjozey@gmail.com?Subject=Hello%20There" target="_top" class="effect"><i class="icon fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/jn.jojokoko/" class="effect"><i class="icon fab fa-instagram"></i></a>
+      <a href="https://vimeo.com/user109355174" class="effect"><i class="icon fab fa-vimeo-v"></i></a>
+      <a href="https://www.linkedin.com/in/jozey-nguyen-830639139/" class="effect"><i class="icon fab fa-linkedin-in"></i></a>
+      </center>
+    </footer>
+</body>
+</html>
