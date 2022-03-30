@@ -177,12 +177,19 @@ h2 {
 }
 
 h4 {
-  text-align: left;
+  text-align: center;
   color: #fff;
     width:75%;
     margin-top:30px;
 }
 
+h5 {
+  text-align: center;
+  color: #fff;
+    width:75%;
+    margin-top:30px;
+  }
+  
 .description {
   width:75%;
   color: #fff;
