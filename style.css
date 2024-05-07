@@ -28,6 +28,8 @@ body {
   z-index: -999; /*order send to back*/
 }
 
+/* Center website */
+
 h1 {
   color: White;
   padding: 45px;
@@ -189,7 +191,7 @@ h5 {
     width:75%;
     margin-top:30px;
   }
-  
+
 .description {
   width:75%;
   color: #fff;

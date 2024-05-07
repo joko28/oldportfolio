@@ -6,7 +6,12 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
 </head>
+<style>
+img {
+  border-radius: 100%;
+}
 
+</style>
 <!--SPAN THROUGH EVERY PAGE-->
 
 <body style="background-color:#001933">
@@ -21,20 +26,82 @@
     </ul>
 
     <div class="twocolumns">
-      <img src="da-assets/me.jpg" id="me">
-      <div id="bio">Hi, my name is Jozey Nguyen and I go to San Jose State University! My major is Digital Media Arts and my minor is Architectural Studies & Interior Design. I have been in school since 2019, hopefully to be gradutating by Spring 2024.
+      <img src="da-assets/me2.jpg" style="object-fit:contain;
+            width:300px;
+            height:375px;
+            border: solid 1px #CCC" id="me">
+      <div id="bio">
+        Jozey Nguyen is a Vietnamese-American female artist located in the Bay Area.
+        She is aiming for her Bachelor in Fine Arts at San Jose State University with a major
+        in Digital Media Arts and a minor in Architectural Studies. Studying at this university
+        allowed her to experience and learn the diversity of mediums in media and art—her
+        passion in photography, digital art, and fantasy.
         <br><br>
-        I have always loved the arts since I was a little girl. I would draw and take photos with any camera I can get my hands on. In the 8th grade of middle school, I took a yearbook class using my father's Nikon camera because I wanted to be
-        involved in the school spirit. I did not have much experience with a DSLR camera but I like to learn. The experience of using that camera and making memories with my friends and teachers was fun for me. I was not an amazing professional at
-        drawing or doing art, but I got better as I kept going. Going into college, I wanted to regain that experience and make magic with my hands, so I chose Digital Media Arts. This major would help me get back into the arts and help me improve on
-        what I love to do.
+        I work in digital art and photography where I bring out different perspectives of life.
+        My favorite genre is fantasy because, in a world like ours, taking myself away from reality
+        is a deal-breaker once in a while. I like to imagine myself in a different world where I
+        can breathe with creativity and passion. The audience that I want to introduce my artwork
+        to is anyone as I try to bring my imagination to life through art. There is a variety of
+        mediums that I have used which you can see in my portfolio, I mainly want to focus on
+        photography, photoshop, illustrator, blender, and video editing. Taking certain things from
+        reality and transforming them into something new, different, and compelling will reintroduce
+        the audience to a meaningful experience.
         <br><br>
-        Choosing architectural studies and interior design as my minors is another aspiration that I wish to learn more about. I love building, using my hands to build or to create something because it's a way for me to acknowledge that I have done
-        something. Building is fun and keeps me going, I build until I finish. My dream has always been to build my own house one day, whether it be planning, constuction, or figuring out what I wanted in my home, because I want to leave a legacy of
-        myself on the ground. I motivate myself to do better and keep going even if things get challenging, because I know in the end, my hard work will pay off.
-        <br><br>
-        I plan on getting a Master's in Architecture after getting my Bacchelor's in Digital Media Arts, and hope to get more experience with internships in architecture and interior design.
-        <br><br>
+
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2E7B8C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #001933;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #001933;
+  padding: 20px;
+}
+</style>
+        <h3>Contact Form</h3>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email..">
+
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+
       </div>
     </div>
   </div>
